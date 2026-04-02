@@ -14,7 +14,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://my-portfolio-zp42.vercel.app/"
+    "https://my-portfolio-zp42.vercel.app"
   ],
   methods: ["GET", "POST"],
 }));
