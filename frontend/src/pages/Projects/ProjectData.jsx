@@ -1,10 +1,12 @@
+import RoyalITWeb from "../../assets/Thumbnail/RIT Home Page.png";
+import RoyalItUi from "../../assets/Thumbnail/RIT Figma Web Site UI Design.png";
 
 const projectData = [
   {
     id: 1,
     title: "Royal Information Technology (pvt) Ltd Website",
     category: "Web Development",
-    thumbnailImg: "../src/assets/Thumbnail/RIT Home Page.png",
+    thumbnailImg: RoyalITWeb,
     description: "A corporate website project created for RIT Company to showcase their services and company profile in a modern and user-friendly design.",
     tags: ["React", "Tailwind CSS", "JavaScript", "Swiper"],
   },
@@ -12,7 +14,7 @@ const projectData = [
     id: 2,
     title: "Royal Information Technology (pvt) Ltd Website Design",
     category: "UX/UI",
-    thumbnailImg: "../src/assets/Thumbnail/RIT Figma Web Site UI Design.png",
+    thumbnailImg: RoyalItUi,
     description: "A corporate website design for RIT Company to showcase their services and company profile in a modern and user-friendly UI design.",
     tags: ["Figma", "UI Design", "Website Design"],
   },
