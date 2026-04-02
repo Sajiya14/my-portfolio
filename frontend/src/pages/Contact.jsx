@@ -101,7 +101,7 @@ export default function ContactForm() {
 
           <div className="mb-10">
             <p className="font-semibold text-xl mb-4">Mobile</p>
-            <p className="text-gray-400 text-lg font-bold">(+94) 755 501 373</p>
+            <p className="text-gray-400 text-lg font-bold">(+94) 751 717 195</p>
           </div>
 
           <div className="flex items-center gap-4">
