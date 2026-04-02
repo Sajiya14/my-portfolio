@@ -11,7 +11,13 @@ const contactRoutes = require("./routes/contactRoutes.js");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://my-portfolio-zp42.vercel.app/"
+  ],
+  methods: ["GET", "POST"],
+}));
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
@@ -27,3 +33,5 @@ app.use("/api/contact", contactRoutes);
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
+
+module.exports = app;
