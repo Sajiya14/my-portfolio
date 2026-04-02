@@ -65,7 +65,7 @@ export default function ContactForm() {
     };
 
     try {
-      await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/contact`, { 
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(submissionData),
@@ -74,29 +74,13 @@ export default function ContactForm() {
       const result = await response.json();
 
       if (result.success) {
-        setStatus({
-          loading: false,
-          message: 'Message sent successfully! 🎉',
-          isError: false,
-        });
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          phone: '',
-          countryCode: '+94',
-          subject: '',
-          message: '',
-        });
+        setStatus({ loading: false, message: 'Message sent successfully! 🎉', isError: false });
+        setFormData({ firstName: '', lastName: '', email: '', phone: '', countryCode: '+94', subject: '', message: '' });
       } else {
         throw new Error(result.message || 'Something went wrong');
       }
     } catch (error) {
-      setStatus({
-        loading: false,
-        message: error.message || 'Failed to send message. Try again.',
-        isError: true,
-      });
+      setStatus({ loading: false, message: error.message || 'Failed to send message.', isError: true });
     }
   };
 
