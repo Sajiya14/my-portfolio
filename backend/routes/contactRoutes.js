@@ -8,10 +8,10 @@ router.post("/", async (req, res) => {
   try {
     const { firstName, lastName, email, phone, countryName, subject, message } = req.body;
 
-    if ( !firstName, !lastName,!email || !subject || !message) {
+    if ( !firstName || !lastName || !email || !subject || !message) {
       return res.status(400).json({
         success: false,
-        message: "Email, subject, and message are required",
+        message: "All fields are required",
       });
     }
 
@@ -28,14 +28,14 @@ router.post("/", async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.EMAIL,                
+        user: process.env.EMAIL_USER ,                
         pass: process.env.EMAIL_APP_PASSWORD,     
       },
     });
 
     await transporter.sendMail({
-      from: `"Portfolio Contact Form" <${process.env.EMAIL}>`,
-      to: process.env.EMAIL,       
+      from: `"Portfolio Contact Form" <${process.env.EMAIL_USER}>`,
+      to: process.env.EMAIL_USER ,       
       replyTo: email,
       subject: `New Contact: ${subject}`,
       text: `
