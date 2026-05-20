@@ -9,6 +9,8 @@ import AboutMe from "./pages/about/AboutMe";
 import Skills from "./pages/about/Skills";
 import Experience from "./pages/about/Experience";
 import Education from "./pages/about/Education";
+import RoyalItUI from "./pages/Projects/RoyalItUI";
+import UniTUi from "./pages/Projects/UniTUi";
 
 export default function App() {
 
@@ -24,7 +26,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-        
+
+          <Route path="/royalItUI" element={<RoyalItUI />} />
+          <Route path="/UniTUi" element={<UniTUi />} />
+
             <Route path="/about" element={<AboutLayout />}>
               <Route index element={<AboutMe />} />
               <Route path="skills" element={<Skills />} />

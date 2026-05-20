@@ -23,7 +23,7 @@ export default function Home() {
   ];
   return (
     <PageWrapper>
-      <section className="flex items-center font-poppins">
+      <section className="flex items-center font-poppins ">
         <div className="container max-w-6xl mx-auto px-6 py-4 md:py-5">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
 
