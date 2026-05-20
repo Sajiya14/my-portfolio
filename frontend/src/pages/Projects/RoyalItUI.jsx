@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import RitThumbnail from "../../assets/Thumbnail/RitThumbnail.png"
+import RitThumbnail from "../../assets/Thumbnail/Royal IT.png"
 import DesignProcessDiagram from "../../assets/diagrams/Design Process.png";
 import CompetitorAnalysis from "../../assets/diagrams/RIT/RIT Competitive Analysis.png";
 import ProjectGoal from "../../assets/diagrams/RIT/RIT Project Goal.jpg";
