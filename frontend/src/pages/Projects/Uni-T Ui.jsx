@@ -33,14 +33,12 @@ const UniTUi = () => {
             />
         </div>
 
-        <div className='flex flex-row gap-10 font-ubuntu-sans mt-10 mb-15'>
-            <div className='flex w-500'>
-                <h1 className='text-4xl font-normal mb-3'>Project Overview</h1>
-                
+        <div className="flex gap-16 font-ubuntu-sans mt-10 mb-10">
+            <div className="w-70 shrink-0">
+                <h1 className="text-[32px] font-normal">Project Overview</h1>
             </div>
-            <div className='flex'>
-                <div className='flex-col'>
-                    <p className='text-[18px] text-gray-800 mt-1 dark:text-white mb-8'>
+                <div className="max-w-175">
+                    <p className="text-[16px] text-gray-800 dark:text-white mb-4">
                         The Uni-T Fashion Store is a modern eCommerce platform designed to provide 
                         a seamless and enjoyable shopping experience for customers across 
                         Sri Lanka. It offers a wide range of products including men's, 
@@ -49,7 +47,7 @@ const UniTUi = () => {
                         and mobile-first usability, allowing users to quickly browse 
                         categories, explore products, and make purchases with confidence.
                     </p>
-                    <p className='text-[18px] text-gray-800 mt-1 dark:text-white'>
+                    <p className="text-[16px] text-gray-800 dark:text-white">
                         The store is built with a strong emphasis on trust and convenience, 
                         addressing common challenges faced by online shoppers such as unclear 
                         sizing, product quality concerns, and complicated checkout processes. 
@@ -59,8 +57,7 @@ const UniTUi = () => {
                         The Fashion Store aims to deliver a reliable and engaging online 
                         shopping experience.
                     </p>
-                </div>   
-            </div>
+                </div>
         </div>
         <div className='w-full bg-black dark:bg-white h-px'></div>
 
