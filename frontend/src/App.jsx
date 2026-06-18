@@ -11,6 +11,8 @@ import Experience from "./pages/about/Experience";
 import Education from "./pages/about/Education";
 import RoyalItUI from "./pages/Projects/RoyalItUI";
 import UniTUi from "./pages/Projects/UniTUi";
+import Footer from "./components/Footer";
+
 
 export default function App() {
 
@@ -39,6 +41,8 @@ export default function App() {
 
         </Routes>
       </AnimatePresence>
+
+      <Footer />
 
     </div>
   );
