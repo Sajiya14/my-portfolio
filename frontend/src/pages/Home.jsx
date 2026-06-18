@@ -46,13 +46,13 @@ export default function Home() {
               </p>
 
               <div className="flex flex-col gap-6">
-                <Link to="/about"  className="flex gap-0 ">
+                <Link to="/projects"  className="flex gap-0 ">
                   <button
                     className="pr-2 py-3 transition group relative inline-flex items-center 
                               gap-3 font-medium overflow-hidden cursor-pointer">
                     <div>
                       <span className="relative text-black dark:text-white">
-                        More About Me
+                        View Projects
                         <span
                           className="absolute left-0 -bottom-2 h-0.5 w-full bg-black/70
                                     origin-center scale-x-0 transition-transform duration-300
