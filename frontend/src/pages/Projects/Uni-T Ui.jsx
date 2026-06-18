@@ -5,7 +5,7 @@ import CompetitorAnalysis from "../../assets/diagrams/UNI-T/Competitor Analysis.
 import FlowChart from "../../assets/diagrams/UNI-T/UNI-T Fashion Flow Chart.png";
 import FlowChartLegend from "../../assets/diagrams/UNI-T/UNI-T Flow Chart Legend.png";
 import ProjectGoal from "../../assets/diagrams/UNI-T/project goal.jpg";
-import SiteMap from "../../assets/diagrams/UNI-T/UNI-T Site Map.png";
+import SiteMap from "../../assets/diagrams/UNI-T/uni-t-site-map.png";
 import Personas from './Personas/Uni-T Persona';
 
 
