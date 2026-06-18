@@ -3,6 +3,7 @@ import projectData  from './Projects/ProjectData.jsx';
 import PageWrapper from '../components/PageWrapper.jsx';
 import { IoClose } from "react-icons/io5";
 import { MoveRight } from "lucide-react";
+import Footer from "../components/Footer.jsx";
 
 export default function Projects() {
 
