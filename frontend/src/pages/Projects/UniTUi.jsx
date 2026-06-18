@@ -227,10 +227,6 @@ const UniTUi = () => {
             </div>
         </div>
 
-        
-
-        
-
         <div className='w-full bg-black dark:bg-white h-px mb-15'></div>
 
         <div>
@@ -371,10 +367,8 @@ const UniTUi = () => {
                     </button>
                 </div>
             </div>
-            <div className='w-full bg-black dark:bg-white h-px mb-15'></div>
+            <div className='w-full bg-black dark:bg-white h-px mt-15 mb-15'></div>
         </div>
-
-        <div className='w-full bg-black dark:bg-white h-px mb-15'></div>
 
         <div>
             <div className='text-lg uppercase text-[#2F2FE4]'>Design</div>
