@@ -13,6 +13,7 @@ import WebPrototype from "../../assets/diagrams/RIT/Web prototype.jpg";
 import UiLibrary from "../../assets/diagrams/RIT/Ui Library Cover.png";
 import RIT_Iteration from './Iterations/RIT-Iteration';
 import Personas from './Personas/RIT-Persona';
+import { FaCircleArrowUp } from "react-icons/fa6";
 
 import Web from '../../assets/diagrams/RIT/web.png';
 import Mobile from '../../assets/diagrams/RIT/mobile.png';
@@ -567,31 +568,31 @@ const RoyalItUI = () => {
             </div>
 
             <div className='mb-10'>
-            <div className='text-md uppercase font-ubuntu-sans text-[#2F2FE4]'>User Feedbacks :</div>
+                <div className='text-md uppercase font-ubuntu-sans text-[#2F2FE4]'>User Feedbacks :</div>
             
-            <div className='grid grid-cols-3 font-poppins gap-20 text-black'>
-                <div className='w-70 h-fit py-7 text-[14px]'>
-                    <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
-                    <p>The website was easy to navigate, and I quickly understood what services Royal IT offers. 
-                    The design looks professional and gave me confidence in the company.</p>
+                <div className='grid grid-cols-3 font-poppins gap-20 dark:text-white'>
+                    <div className='w-70 h-fit py-7 text-[14px]'>
+                        <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
+                        <p>The website was easy to navigate, and I quickly understood what services Royal IT offers. 
+                        The design looks professional and gave me confidence in the company.</p>
                     
-                
-                </div>
-                <div className='w-70 h-fit py-7 text-[14px]'>
-                    <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
-                    <p>I liked how the information was organized. The service section was clear, and I was able 
-                    to find the contact details without any confusion. Adding client success stories would make 
-                    it even more trustworthy.</p>
-                </div>
+                    </div>
 
-                <div className='w-70 h-fit py-7 text-[14px]'>
-                    <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
-                    <p>The overall experience felt smooth and modern. The black and gold branding helped the company 
-                        stand out, and I could easily see why someone would choose Royal IT. I would like to see more 
-                        examples of previous projects.</p>
+                    <div className='w-70 h-fit py-7 text-[14px]'>
+                        <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
+                        <p>I liked how the information was organized. The service section was clear, and I was able 
+                        to find the contact details without any confusion. Adding client success stories would make 
+                        it even more trustworthy.</p>
+                    </div>
+
+                    <div className='w-70 h-fit py-7 text-[14px] '>
+                        <div className='text-8xl font-jacques-francois-shadow border-black  h-12 w-12 mb-3'>“</div>
+                        <p>The overall experience felt smooth and modern. The black and gold branding helped the company 
+                            stand out, and I could easily see why someone would choose Royal IT. I would like to see more 
+                            examples of previous projects.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
             <div className="flex gap-16 font-ubuntu-sans mt-2 mb-5">
                 <div className="w-70 shrink-0">  
@@ -745,6 +746,15 @@ const RoyalItUI = () => {
                 </div>
             </div>
         </div>
+
+        <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="fixed bottom-8 right-8 bg-white text-black cursor-pointer rounded-full shadow-lg hover:scale-110 transition">
+        
+            <FaCircleArrowUp 
+                className="w-12 h-12 px-1 py-1"
+            />
+        </button>
         
     </div>
   )
