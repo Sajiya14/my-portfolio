@@ -7,6 +7,7 @@ import FlowChartLegend from "../../assets/diagrams/UNI-T/UNI-T Flow Chart Legend
 import ProjectGoal from "../../assets/diagrams/UNI-T/project goal.jpg";
 import SiteMap from "../../assets/diagrams/UNI-T/uni-t-site-map.png";
 import Personas from './Personas/Uni-T Persona';
+import { FaCircleArrowUp } from "react-icons/fa6";
 
 
 const UniTUi = () => {
@@ -276,7 +277,7 @@ const UniTUi = () => {
                 </div>
                 <div className='flex'>
                     <div className='flex-col'>
-                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-8'>
+                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white'>
                             Before heading on to finding ideas for a solution, I mapped out the business goals, user goals, and project goals.
                         </p>
                     </div>   
@@ -337,9 +338,9 @@ const UniTUi = () => {
                     </div>
                     <div className='flex'>
                         <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-8'>
-                        The site map was created to organize the website structure in a clear and logical way. 
-                        It groups all pages such as Home, About, Services, and Contact into an easy-to-navigate 
-                        hierarchy, allowing users to find information quickly.
+                        The site map was designed to establish a logical information architecture for the eCommerce 
+                        platform, ensuring users can effortlessly browse categories, find products, and move through 
+                        the shopping process from discovery to checkout.
                         </p> 
                     </div>
                 </div>
@@ -378,8 +379,8 @@ const UniTUi = () => {
                 <div className='flex'>
                     <div className='flex-col'>
                         <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-8'>
-                        I started with wireframe to experiment with multiple layout directions and navigation patterns, 
-                        helping identify the most intuitive and effective user experience for the Royal IT website.
+                        I began with wireframes to explore multiple layouts, navigation structures, and shopping flows, 
+                        ensuring users could easily discover products and complete their purchases.
                         </p>
                     </div>   
                 </div>
@@ -414,7 +415,8 @@ const UniTUi = () => {
                 <div className='flex'>
                     <div className='flex-col'>
                         <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
-                            I started with high-fidelity frames to refine the visual design and ensure a polished user experience for the Royal IT website.
+                            I designed a scalable UI component library to create a consistent visual language and streamline 
+                            the design process across all screens of the eCommerce platform.
                         </p>
                     </div>   
                 </div>
@@ -447,7 +449,8 @@ const UniTUi = () => {
                 <div className='flex'>
                     <div className='flex-col'>
                         <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
-                            I started with high-fidelity frames to refine the visual design and ensure a polished user experience for the Royal IT website.
+                            I translated the wireframe into high-fidelity designs, refining typography, colors, imagery, 
+                            and interactions to deliver a polished and engaging online shopping experience.
                         </p>
                     </div>   
                 </div>
@@ -498,7 +501,252 @@ const UniTUi = () => {
             <div className='w-full bg-black dark:bg-white h-px mt-15 mb-15'></div>
         </div>
 
+        <div>
+            <div className='text-lg uppercase text-[#2F2FE4]'>Testing & Iteration</div>
+            <div className="font-ubuntu-sans mt-4 mb-10">
+                <h1 className="text-[32px] font-normal">Usability Testing</h1>   
+            
+                <div className='text-[16px] text-gray-800 mt-2 dark:text-white mb-5'>
+                    To evaluate the effectiveness of the fashion eCommerce website, I conducted moderated usability testing sessions 
+                    with five participants who matched the target audience, including university students, young professionals, and 
+                    frequent online shoppers. The objective was to assess how easily users could discover products, navigate categories, 
+                    evaluate product details, and complete the purchasing journey with confidence.
+                </div>
+            </div>
+            <div className="flex gap-16 font-poppins">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase font-ubuntu-sans text-[#2F2FE4]">Scenario :</h1>   
+                </div>
+                <div className='flex font-ubuntu-sans'>
+                    <div className='flex-col'>
+                        <p className='text-[16px] font-normal text-gray-800 mt-1 dark:text-white mb-5'>
+                        "You are looking for a new outfit for an upcoming event. Visit the fashion eCommerce website, browse products, 
+                        find an item that matches your style, review the product information, add it to your cart, and proceed through the checkout process."
+                        </p>
+                    </div>   
+                </div>
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-3 mb-5">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase text-[#2F2FE4]">Participants Were Asked To :</h1>   
+                </div>
+
+                <ul className="list-disc pl-4 space-y-2">
+                    <li>Browse products by category.</li>
+                    <li>Find a specific clothing item using search or filters.</li>
+                    <li>Review product details, including images, sizes, colors, and pricing.</li>
+                    <li>Add a product to the shopping cart.</li>
+                    <li>Complete the checkout process using the provided checkout flow.</li>
+                    
+                </ul>
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-8">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase font-ubuntu-sans text-[#2F2FE4]">Results :</h1>   
+                </div>
+                <div className='flex'>
+                    <div className='flex-col'>
+                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
+                        All participants successfully completed the primary shopping tasks without major usability issues. Users were 
+                        able to browse products, apply filters, review product information, and proceed through checkout with minimal 
+                        effort. Participants particularly appreciated the clean interface, high-quality product imagery, intuitive navigation, 
+                        and streamlined checkout experience, which helped them make purchasing decisions more confidently.
+                        </p>
+                    </div>   
+                </div>
+            </div>
+
+            <div className='mb-10'>
+                <div className='text-md uppercase font-ubuntu-sans text-[#2F2FE4]'>User Feedbacks :</div>
+            
+                <div className='grid grid-cols-3 font-poppins gap-20 dark:text-white'>
+                    <div className='w-70 h-fit py-7 text-[14px]'>
+                        <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
+                        <p>Browsing products felt really easy, and I liked how quickly I could find clothes that matched my style. The filters saved me a lot of time</p>
+                    
+                    </div>
+
+                    <div className='w-70 h-fit py-7 text-[14px]'>
+                        <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
+                        <p>The product pages were clear and informative. The size options, multiple images, and product details helped me feel confident before adding items to my cart.</p>
+                    </div>
+
+                    <div className='w-70 h-fit py-7 text-[14px]'>
+                        <div className='text-8xl font-jacques-francois-shadow border-black h-12 w-12 mb-3'>“</div>
+                        <p>The checkout process was simple and straightforward. I didn't feel overwhelmed, and everything I needed was easy to find. It would be even better if there were 
+                           customer reviews and estimated delivery information on the product page.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-2 mb-5">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase text-[#2F2FE4]">Key Insights :</h1>   
+                </div>
+
+                <ul className="list-disc pl-4 space-y-2">
+                    <li>Users found it easy to browse products and navigate between categories.</li>
+                    <li>Search and filtering features helped users locate products more efficiently.</li>
+                    <li>High-quality product images and clear product information increased purchase confidence.</li>
+                    <li>The shopping cart and checkout flow were intuitive and required minimal effort.</li>
+                    <li>Users suggested adding customer reviews, product ratings, and estimated delivery information to further improve trust and decision-making.</li>
+                </ul>
+            </div>
+                
+            <div>
+                <div className="font-ubuntu-sans mt-15 "> 
+                    <h1 className="text-[32px] font-normal">Iteration</h1>   
+                
+                    <div  className='text-[16px] text-gray-800 mt-2 dark:text-white'>
+                        Following usability testing, I analyzed participant feedback and interaction patterns to identify
+                        friction points within the user journey. These findings informed several design iterations focused 
+                        on improving navigation, content clarity and trust-building elements.   
+                    </div>
+                </div>
+                
+                {/*<div>
+                    <RIT_Iteration/>
+                </div> */}
+            </div>
+            <div className='w-full bg-black dark:bg-white h-px mt-15 mb-15'></div>
+        </div>
+
+        <div>
+            <div>
+                <div className="flex font-ubuntu-sans"> 
+                    <h1 className="text-2xl font-normal text-[#2F2FE4]">Experience The Prototypes</h1>
+                </div>
+
+                <div className='text-[16px] text-gray-800 mt-1 dark:text-white mb-8'>
+                    Explore the interactive prototype to experience the end-to-end shopping journey from browsing products 
+                    and viewing detailed product information to adding items to the cart and completing checkout. All designed 
+                    to deliver a smooth, intuitive, and user-centered experience.
+                </div>
+            </div>
         
+            {/*<div className="flex gap-30 font-ubuntu-sans mt-2 items-end">
+                <div className="ml-20 mt-10">
+                    <div className="h-75">
+                        <img
+                            src={Web}
+                            alt="Web UI"
+                            className="h-full w-auto object-contain"
+                        />
+                    </div>
+                    <div className='flex justify-center mt-10'>
+                        <button
+                            onClick={() =>
+                                window.open(
+                                "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1216-3814&p=f&t=uSq44fr7RVTvLADw-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"
+                                )
+                            }
+                            className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">  
+                            Web Prototype
+                        </button>
+                    </div>
+                </div>
+
+                <div className="mt-10">
+                    <div className="h-75">
+                        <img
+                            src={Mobile}
+                            alt="Mobile UI"
+                            className="h-full w-auto object-contain"
+                        />
+                    </div>
+                    <div className='flex justify-center mt-10'>
+                        <button
+                            onClick={() =>
+                                window.open(
+                                "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1216-3814&p=f&t=uSq44fr7RVTvLADw-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"
+                                )
+                            }
+                            className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">  
+                            Mobile Prototype
+                        </button>
+                    </div>
+                </div>
+            </div>*/}
+
+            <div className='w-full bg-black dark:bg-white h-px mt-15 mb-15'></div>
+        </div>
+
+        <div>
+            <div className='text-lg uppercase text-[#2F2FE4]'>FINAL THOUGHTS</div>
+            <div className="flex gap-16 font-ubuntu-sans mt-4">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-[32px] font-normal">Key Takeaways</h1>   
+                </div>
+            </div>
+            <div className='text-[16px] text-gray-800 mt-1 dark:text-white mb-10'>
+                This project demonstrates how thoughtful UX design can simplify the online shopping experience while balancing 
+                both user needs and business objectives. By combining user research, competitor analysis, information architecture, 
+                wireframe, visual design, and usability testing, I designed an experience that helps customers discover products 
+                more easily, make confident purchase decisions, and complete checkout with minimal friction. Although developed as 
+                a concept, the project highlights how user-centered design can improve customer satisfaction, increase conversions, 
+                and strengthen long-term brand loyalty.
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-2">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase font-ubuntu-sans text-[#2F2FE4]">What I Learned :</h1>   
+                </div>
+                <div className='flex'>
+                    <div className='flex-col'>
+                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
+                        This project reinforced the importance of designing around the entire customer shopping journey rather than 
+                        focusing only on visual aesthetics. I learned how every stage from product discovery and browsing to product 
+                        evaluation and checkout contributes to the overall user experience. User testing also demonstrated the value 
+                        of validating design decisions with real users, revealing opportunities to improve navigation, product information, 
+                        and the purchasing flow that may not have been obvious during the design process.
+                        </p>
+                    </div>   
+                </div>
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-2">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase font-ubuntu-sans text-[#2F2FE4]">Next Steps :</h1>   
+                </div>
+                <div className='flex'>
+                    <div className='flex-col'>
+                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
+                        While this project was created as a concept, the next step is to evolve it into a fully functional eCommerce platform. 
+                        Future improvements will focus on implementing the design, conducting larger-scale usability testing, and continuously 
+                        refining the experience based on customer feedback and analytics. Additional features such as product reviews, personalized 
+                        recommendations, wishlists, delivery tracking, and loyalty rewards could further enhance user engagement and encourage repeat purchases.
+                        </p>
+                    </div>   
+                </div>
+            </div>
+
+            <div className="flex gap-16 font-ubuntu-sans mt-2">
+                <div className="w-70 shrink-0">  
+                    <h1 className="text-md uppercase font-ubuntu-sans text-[#2F2FE4]">What I’m Most Proud Of :</h1>   
+                </div>
+                <div className='flex'>
+                    <div className='flex-col'>
+                        <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-5'>
+                        I'm most proud of creating a complete end-to-end UX case study that goes beyond designing attractive interfaces to solving real 
+                        user problems. Every design decision from simplifying product discovery and improving product detail pages to streamlining the 
+                        checkout experience was guided by user research and validated through usability testing. Watching the concept evolve into a cohesive 
+                        shopping experience that balances usability and business goals is the achievement I'm most proud of.
+                        </p>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <button
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="fixed bottom-8 right-8 bg-white text-black cursor-pointer rounded-full shadow-lg hover:scale-110 transition">
+
+            <FaCircleArrowUp 
+                className="w-12 h-12 px-1 py-1"
+            />
+      </button>
     </div>
   )
 }
