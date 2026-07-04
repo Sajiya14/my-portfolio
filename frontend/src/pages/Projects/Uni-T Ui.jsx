@@ -8,6 +8,7 @@ import ProjectGoal from "../../assets/diagrams/UNI-T/project goal.jpg";
 import SiteMap from "../../assets/diagrams/UNI-T/uni-t-site-map.png";
 import Personas from './Personas/Uni-T Persona';
 import { FaCircleArrowUp } from "react-icons/fa6";
+import WebPrototype from "../../assets/diagrams/UNI-T/TFS Web Prototype.png";
 
 
 const UniTUi = () => {
@@ -379,7 +380,7 @@ const UniTUi = () => {
                 <div className='flex'>
                     <div className='flex-col'>
                         <p className='text-[16px] text-gray-800 mt-1 dark:text-white mb-8'>
-                        I began with wireframes to explore multiple layouts, navigation structures, and shopping flows, 
+                        I began with wireframe to explore multiple layouts, navigation structures, and shopping flows, 
                         ensuring users could easily discover products and complete their purchases.
                         </p>
                     </div>   
@@ -475,7 +476,7 @@ const UniTUi = () => {
                     className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">  
                         View Full Mobile Prototype
                 </button>
-            </div>
+            </div>*/}
         
             <div className="cursor-pointer items-center justify-center px-10 w-full mt-15">
                 <img
@@ -490,13 +491,13 @@ const UniTUi = () => {
                 <button
                     onClick={() =>
                         window.open(
-                            "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1216-3814&p=f&t=uSq44fr7RVTvLADw-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"
+                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=3225-2395&t=4J20SnVGmFoeqdVx-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3225%3A2395"
                         )
                     }
                     className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">  
                         View Full Web Prototype
                 </button>
-            </div>*/}
+            </div>
 
             <div className='w-full bg-black dark:bg-white h-px mt-15 mb-15'></div>
         </div>
