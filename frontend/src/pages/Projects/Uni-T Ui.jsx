@@ -287,7 +287,7 @@ const UniTUi = () => {
                 </div>
             </div>
                     
-            <div className="cursor-pointer items-center justify-center px-20 h-fit w-fit ">
+            <div className="cursor-pointer items-center justify-center h-fit w-fit ">
                 <img
                     src={ProjectGoal}
                     alt="Project Goal"
@@ -316,7 +316,7 @@ const UniTUi = () => {
                 </div>
             </div>
         
-            <div className="h-full w-full px-40 mb-10">
+            <div className="h-full w-full mb-10">
                 <div className="flex justify-center items-center mb-10">
                     <img
                         src={FlowChartLegend}
@@ -348,7 +348,7 @@ const UniTUi = () => {
                     </div>
                 </div>
                 
-                <div className="items-center justify-center px-40 h-fit w-fit ">
+                <div className="items-center justify-center h-fit w-fit ">
                     <img
                         src={SiteMap}
                         alt="Site Map"
@@ -374,7 +374,7 @@ const UniTUi = () => {
         <div>
             <div className='text-lg uppercase text-[#2F2FE4]'>Design</div>
         
-            <div className='flex flex-row gap-16 font-ubuntu-sans mt-2 mb-10'>
+            <div className='flex flex-row gap-16 font-ubuntu-sans mt-2 mb-5'>
                 <div className='flex w-70 shrink-0'>
                     <h1 className='text-[32px] font-normal mb-3'>Wireframe</h1>   
                 </div>
@@ -389,7 +389,7 @@ const UniTUi = () => {
                 </div>
             </div>
         
-            *<div className="cursor-pointer items-center justify-center px-10 w-full ">
+            <div className="cursor-pointer items-center justify-center w-full ">
                 <img
                     src={WebWireframe}
                     alt="Wireframe"
@@ -402,8 +402,7 @@ const UniTUi = () => {
                 <button
                     onClick={() =>
                         window.open(
-                        "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1216-6690&t=vsT1PQuw4s65a8Rx-1&scaling=scale-down-width&content-scaling=fixed&page-id=776%3A796",
-                        "_blank"
+                        "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=3750-9109&t=vbAWlreEBmvidDti-1&scaling=min-zoom&content-scaling=fixed&page-id=3160%3A2258"
                         )
                     }
                     className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">
@@ -445,7 +444,7 @@ const UniTUi = () => {
                 </button>
             </div>*/}
         
-            <div className='flex flex-row gap-16 font-ubuntu-sans mt-15 mb-10'>
+            <div className='flex flex-row gap-16 font-ubuntu-sans mt-15 mb-5'>
                 <div className='flex w-70 shrink-0'>
                     <h1 className='text-[32px] font-normal mb-3'>High-fidelity Frames</h1>   
                 </div>
@@ -480,7 +479,7 @@ const UniTUi = () => {
                 </button>
             </div>*/}
         
-            <div className="cursor-pointer items-center justify-center px-10 w-full mt-15">
+            <div className="cursor-pointer items-center justify-center w-full mt-5">
                 <img
                     src={WebPrototype}
                     alt="Web Prototype"
