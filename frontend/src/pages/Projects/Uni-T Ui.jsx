@@ -9,6 +9,8 @@ import SiteMap from "../../assets/diagrams/UNI-T/uni-t-site-map.png";
 import Personas from './Personas/Uni-T Persona';
 import { FaCircleArrowUp } from "react-icons/fa6";
 import WebPrototype from "../../assets/diagrams/UNI-T/TFS Web Prototype.png";
+import WebWireframe from "../../assets/diagrams/UNI-T/TFS Web Wireframe.png";
+
 
 
 const UniTUi = () => {
@@ -387,11 +389,11 @@ const UniTUi = () => {
                 </div>
             </div>
         
-            {/*<div className="cursor-pointer items-center justify-center px-10 w-full ">
+            *<div className="cursor-pointer items-center justify-center px-10 w-full ">
                 <img
-                    src={Wireframe}
+                    src={WebWireframe}
                     alt="Wireframe"
-                    onClick={() => setPreviewImage(Wireframe)}
+                    onClick={() => setPreviewImage(WebWireframe)}
                     className='object-cover overflow-hidden transition-transform duration-500 hover:scale-102'
                 />
             </div>
@@ -407,7 +409,7 @@ const UniTUi = () => {
                     className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">
                         View Full Wireframe
                 </button>
-            </div>*/}
+            </div>
         
             <div className='flex flex-row gap-16 font-ubuntu-sans mt-15 mb-10'>
                 <div className='flex w-70 shrink-0'>
