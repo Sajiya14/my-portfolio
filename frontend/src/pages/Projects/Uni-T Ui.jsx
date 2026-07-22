@@ -10,6 +10,8 @@ import Personas from './Personas/Uni-T Persona';
 import { FaCircleArrowUp } from "react-icons/fa6";
 import WebPrototype from "../../assets/diagrams/UNI-T/TFS Web Prototype.png";
 import WebWireframe from "../../assets/diagrams/UNI-T/TFS Web Wireframe.png";
+import MobilePrototype from "../../assets/diagrams/UNI-T/TFS Mobile Prototype.png";
+
 
 
 
@@ -458,7 +460,7 @@ const UniTUi = () => {
                 </div>
             </div>
         
-            {/*<div className="cursor-pointer items-center justify-center px-10 w-full ">
+            <div className="cursor-pointer items-center justify-center px-10 w-full ">
                 <img
                     src={MobilePrototype}
                     alt="Mobile Prototype"
@@ -471,13 +473,13 @@ const UniTUi = () => {
                 <button
                     onClick={() =>
                         window.open(
-                            "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1466-2001&p=f&t=dqAo0TPkPQYBjtsk-1&scaling=min-zoom&content-scaling=fixed&page-id=1466%3A1002"
+                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=2070-746&t=g6zQ3zBIqQ9vfCg9-1&scaling=min-zoom&content-scaling=fixed&page-id=1969%3A2479"
                         )
                     }
                     className="px-10 py-4 bg-white text-black border border-black shadow-md shadow-black  hover:bg-gray-800 hover:text-white transition duration-300 cursor-pointer dark:shadow-white dark:shadow-md dark:bg-black dark:text-white dark:border-white dark:hover:text-white">  
                         View Full Mobile Prototype
                 </button>
-            </div>*/}
+            </div>
         
             <div className="cursor-pointer items-center justify-center w-full mt-5">
                 <img
