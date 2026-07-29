@@ -10,7 +10,7 @@ import Skills from "./pages/about/Skills";
 import Experience from "./pages/about/Experience";
 import Education from "./pages/about/Education";
 import RoyalItUI from "./pages/Projects/RoyalItUI";
-import UniTUi from "./pages/Projects/Uni-T Ui";
+import TfsUi from "./pages/Projects/TfsUi";
 import Footer from "./components/Footer";
 
 
@@ -30,7 +30,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
 
           <Route path="/royalItUI" element={<RoyalItUI />} />
-          <Route path="/UniTUi" element={<UniTUi />} />
+          <Route path="/TfsUi" element={<TfsUi />} />
 
             <Route path="/about" element={<AboutLayout />}>
               <Route index element={<AboutMe />} />

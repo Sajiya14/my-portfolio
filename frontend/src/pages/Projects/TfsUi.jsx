@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import UniTUiThumbnail from "../../assets/Thumbnail/UniTUiThumbnail.png";
+import Thumbnail from "../../assets/Thumbnail/TFS Thumbnail.png";
 import DesignProcessDiagram from "../../assets/diagrams/UNI-T/Design Process.png";
 import CompetitorAnalysis from "../../assets/diagrams/UNI-T/Competitor Analysis.png";
 import FlowChart from "../../assets/diagrams/UNI-T/UNI-T Fashion Flow Chart.png";
@@ -15,7 +15,7 @@ import MobilePrototype from "../../assets/diagrams/UNI-T/TFS Mobile Prototype.pn
 
 
 
-const UniTUi = () => {
+const TfsUi = () => {
     const [previewImage, setPreviewImage] = useState(null);
 
   return (
@@ -33,7 +33,7 @@ const UniTUi = () => {
 
         <div className="overflow-hidden">
             <img 
-                src={UniTUiThumbnail} 
+                src={Thumbnail} 
                 alt="Uni-T Fashion E-commerce Web App UI Design" 
                 className="w-full h-full pb-3 object-cover mb-4 " 
             />
@@ -45,23 +45,22 @@ const UniTUi = () => {
             </div>
                 <div className="max-w-175">
                     <p className="text-[16px] text-gray-800 dark:text-white mb-4">
-                        The Uni-T Fashion Store is a modern eCommerce platform designed to provide 
-                        a seamless and enjoyable shopping experience for customers across 
-                        Sri Lanka. It offers a wide range of products including men's, 
-                        women's, kids', and baby clothing, along with beauty and home 
-                        essentials. The platform focuses on clean design, easy navigation, 
-                        and mobile-first usability, allowing users to quickly browse 
-                        categories, explore products, and make purchases with confidence.
+                        Designed a concept e-commerce web store experience for TFS (The Fashion Store) 
+                        to create a modern, user-friendly online shopping platform for a fashion retail 
+                        brand. The project explores how a fashion business could establish its digital 
+                        presence by providing customers with an intuitive product discovery and purchasing experience.
+                    </p>
+                    <p className="text-[16px] text-gray-800 dark:text-white mb-4">
+                        I focused on understanding e-commerce user behaviors and designing a seamless 
+                        shopping journey from browsing products to completing checkout. The design 
+                        process included competitor analysis, user research, user personas, information 
+                        architecture, user flows, wireframing, and high-fidelity UI design using Figma.
                     </p>
                     <p className="text-[16px] text-gray-800 dark:text-white">
-                        The store is built with a strong emphasis on trust and convenience, 
-                        addressing common challenges faced by online shoppers such as unclear 
-                        sizing, product quality concerns, and complicated checkout processes. 
-                        Features like detailed product information, intuitive filtering, and 
-                        simplified checkout flows help users make informed decisions. By 
-                        combining user-centered design with a visually appealing interface, 
-                        The Fashion Store aims to deliver a reliable and engaging online 
-                        shopping experience.
+                        The final concept design includes a responsive storefront with product categories, 
+                        advanced filtering, product details, shopping cart, checkout flow, and account 
+                        management features. The interface was designed with a focus on visual appeal, 
+                        usability, and building customer trust through a clean and engaging fashion-focused experience.
                     </p>
                 </div>
         </div>
@@ -74,11 +73,11 @@ const UniTUi = () => {
             </div>
             <div className='text-lg'>
                 <div className='mb-4 uppercase text-[#2F2FE4]'>My role</div>
-                <div>UX + UI Design, User flow, Research, Prototyping</div>
+                <div>UX & UI Designer</div>
             </div>
             <div className='text-lg'>
                 <div className='mb-4 uppercase text-[#2F2FE4]'>Tools</div>
-                <div>Figma, Fig jam</div>
+                <div>Figma, Fig jam, Draw.io, Canva, Gemini & Chat GPT AI</div>
             </div>
         </div>
         <div className='w-full bg-black dark:bg-white h-px mb-15'></div>
@@ -755,4 +754,4 @@ const UniTUi = () => {
   )
 }
 
-export default UniTUi
+export default TfsUi

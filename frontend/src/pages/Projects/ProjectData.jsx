@@ -20,7 +20,7 @@ const projectData = [
     projectType: "Ecommerce Website",
     description: "A modern UI design for the Uni-T Fashion E-commerce website, focusing on a clean, responsive, and user-friendly interface.",
     tags: ["Figma", "UI Design", "E-commerce Design"],
-    link: "/UniTUi"
+    link: "/TfsUi"
   },
 ];
 
