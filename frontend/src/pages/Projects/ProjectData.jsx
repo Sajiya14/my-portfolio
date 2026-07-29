@@ -1,4 +1,4 @@
-import UniTUiThumbnail from "../../assets/Thumbnail/UniTUiThumbnail.png";
+import TfsThumbnail from "../../assets/Thumbnail/TFS Thumbnail.png";
 import RitThumbnail from "../../assets/Thumbnail/Royal IT.png";
 
 const projectData = [
@@ -16,7 +16,7 @@ const projectData = [
     id: 2,
     title: "Uni-T Fashion E-commerce Web App UI Design",
     category: "UX/UI",
-    thumbnailImg: UniTUiThumbnail,
+    thumbnailImg: TfsThumbnail,
     projectType: "Ecommerce Website",
     description: "A modern UI design for the Uni-T Fashion E-commerce website, focusing on a clean, responsive, and user-friendly interface.",
     tags: ["Figma", "UI Design", "E-commerce Design"],
