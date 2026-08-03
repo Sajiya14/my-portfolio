@@ -19,7 +19,7 @@ export default function App() {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black text-text-primary dark:text-(--dark-text-primary) transition-colors duration-500">
+    <div className="min-h-screen bg-black text-(--dark-text-primary) transition-colors duration-500">
 
       <Navbar />
 
