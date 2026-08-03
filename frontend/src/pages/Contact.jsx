@@ -126,7 +126,7 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              <label htmlFor="firstName" className="block text-sm font-medium text-gray-300 mb-3">
                 First Name (required)
               </label>
               <input
@@ -136,13 +136,13 @@ export default function ContactForm() {
                 value={formData.firstName}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition-colors"
+                className="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 border-gray-600 text-white transition-colors"
                 placeholder="First name"
               />
             </div>
 
             <div>
-              <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              <label htmlFor="lastName" className="block text-sm font-medium text-gray-300 mb-3">
                 Last Name (required)
               </label>
               <input
@@ -152,7 +152,7 @@ export default function ContactForm() {
                 value={formData.lastName}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition-colors"
+                className="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 border-gray-600 text-white transition-colors"
                 placeholder="Last name"
               />
             </div>
@@ -160,7 +160,7 @@ export default function ContactForm() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-3">
                 Email (required)
               </label>
               <input
@@ -170,20 +170,20 @@ export default function ContactForm() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition-colors"
+                className="w-full px-4 py-3 rounded-lg border focus-within:ring-2 focus-within:ring-blue-500 focus-within:border-blue-500 bg-gray-800 border-gray-600 overflow-hidden"
                 placeholder="email@example.com"
               />
             </div>
 
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-3">
                 Phone (optional)
               </label>
-              <div className="flex rounded-lg border border-gray-300 focus-within:ring-2 focus-within:ring-blue-500 focus-within:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 overflow-hidden">
+              <div className="flex rounded-lg border focus-within:ring-2 focus-within:ring-blue-500 focus-within:border-blue-500 bg-gray-800 border-gray-600 overflow-hidden">
                 <select
                   value={formData.countryCode}
                   onChange={handleCountryChange}
-                  className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-r border-gray-300 dark:border-gray-600 px-3 py-3 text-sm focus:outline-none cursor-pointer min-w-22.5"
+                  className="bg-gray-800  text-gray-200 border-r border-gray-600 px-3 py-3 text-sm focus:outline-none cursor-pointer min-w-18"
                 >
                   {countryPhoneCodes.map((country) => (
                     <option key={country.iso} value={country.code}>
@@ -206,7 +206,7 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-3">
               Subject (required)
             </label>
             <input
@@ -216,13 +216,13 @@ export default function ContactForm() {
               value={formData.subject}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition-colors"
+              className="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 border-gray-600 text-white transition-colors"
               placeholder="What's this about?"
             />
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-3">
               Message (required)
             </label>
             <textarea
@@ -232,7 +232,7 @@ export default function ContactForm() {
               onChange={handleChange}
               required
               rows={6}
-              className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-800 dark:border-gray-600 dark:text-white transition-colors resize-none"
+              className="w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-gray-800 border-gray-600 text-white transition-colors resize-none"
               placeholder="Tell me more about your project or question, feedback."
             />
           </div>
