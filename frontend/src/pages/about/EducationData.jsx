@@ -9,6 +9,7 @@ import Python2 from "../../assets/Certificate/Python Programming 2.png";
 export const educationTabs = [
   {
     category: "University",
+    id: 1,
     subMenu: [
       {
         id: 1,
@@ -22,6 +23,7 @@ export const educationTabs = [
   },
   {
     category: "College",
+    id: 2,
     subMenu: [
       {
         id: 1,

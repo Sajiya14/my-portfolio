@@ -12,18 +12,15 @@ import {
 import { SiTailwindcss, SiMongodb, SiPostman } from "react-icons/si";
 
 const SkillsList = [
+  { name: "Figma", icon: <FaFigma size={50}/>, hoverColor: 'group-hover:text-[#E91E63]' },
   { name: "React", icon: <FaReact size={50}/>, hoverColor: 'group-hover:text-[#61DAFB]' },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={50}/>, hoverColor: 'group-hover:text-[#06B6D4]' },
   { name: "Git Hub", icon: <FaGithub size={50}/>, hoverColor: 'group-hover:text-white' },
-  { name: "Postman API", icon: <SiPostman size={50}/>, hoverColor: 'group-hover:text-[#F94124]' },
   { name: "HTML5", icon: <FaHtml5 size={50}/>, hoverColor: 'group-hover:text-[#FF9800]' },
   { name: "CSS3", icon: <FaCss3Alt size={50}/>, hoverColor: 'group-hover:text-[#2196F3]' },
   { name: "JavaScript", icon: <FaJs size={50}/>, hoverColor: 'group-hover:text-[#F7DF1E]'},
   { name: "Node.js", icon: <FaNodeJs size={50}/>, hoverColor: 'group-hover:text-[#4CAF50]' },
   { name: "MongoDB", icon: <SiMongodb size={50} />, hoverColor: 'group-hover:text-[#43A047]' },
-  { name: "Figma", icon: <FaFigma size={50}/>, hoverColor: 'group-hover:text-[#E91E63]' },
-  { name: "Angular", icon: <FaAngular size={50}/>, hoverColor: 'group-hover:text-[#fb2c36]' },
-  { name: "Python", icon: <FaPython size={50} />, hoverColor: 'group-hover:text-[#FFEB3B]'},
 ];
 
 export default function Skills() {
