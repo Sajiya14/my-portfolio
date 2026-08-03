@@ -50,4 +50,19 @@
   animation: fade 0.5s ease-in-out;
 }
 
+.slideUp {
+  from {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideUp {
+  animation: slideUp 0.4s ease-out;
+}
+
 
