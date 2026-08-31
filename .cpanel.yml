@@ -1,7 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kasajith/public_html/
-    - cd /home/kasajith/my-portfolio/frontend && npm install
-    - cd /home/kasajith/my-portfolio/frontend && npm run build
-    - /bin/cp -R /home/kasajith/my-portfolio/frontend/dist/* $DEPLOYPATH
+    - /bin/echo "Deployment test successful"
