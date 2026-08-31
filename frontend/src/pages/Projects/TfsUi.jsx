@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import Thumbnail from "../../assets/Thumbnail/TFS Thumbnail.png";
-import DesignProcessDiagram from "../../assets/diagrams/UNI-T/Design Process.png";
-import CompetitorAnalysis from "../../assets/diagrams/UNI-T/Competitor Analysis.png";
-import FlowChart from "../../assets/diagrams/UNI-T/UNI-T Fashion Flow Chart.png";
-import FlowChartLegend from "../../assets/diagrams/UNI-T/UNI-T Flow Chart Legend.png";
-import ProjectGoal from "../../assets/diagrams/UNI-T/project goal.jpg";
-import SiteMap from "../../assets/diagrams/UNI-T/uni-t-site-map.png";
+import DesignProcess from "../../assets/diagrams/TFS/Design Process.png";
+import CompetitorAnalysis from "../../assets/diagrams/TFS/Competitor Analysis.png";
+import FlowChart from "../../assets/diagrams/TFS/UNI-T Fashion Flow Chart.png";
+import FlowChartLegend from "../../assets/diagrams/TFS/UNI-T Flow Chart Legend.png";
+import ProjectGoal from "../../assets/diagrams/TFS/project goal.jpg";
+import SiteMap from "../../assets/diagrams/TFS/uni-t-site-map.png";
 import Personas from './Personas/Uni-T Persona';
 import { FaCircleArrowUp } from "react-icons/fa6";
-import WebPrototype from "../../assets/diagrams/UNI-T/TFS Web Prototype.png";
-import WebWireframe from "../../assets/diagrams/UNI-T/TFS Web Wireframe.png";
-import MobilePrototype from "../../assets/diagrams/UNI-T/TFS Mobile Prototype.png";
+import WebPrototype from "../../assets/diagrams/TFS/TFS Web Prototype.png";
+import WebWireframe from "../../assets/diagrams/TFS/TFS Web Wireframe.png";
+import MobilePrototype from "../../assets/diagrams/TFS/TFS Mobile Prototype.png";
 import UiLibrary from "../../assets/diagrams/RIT/Ui Library Cover.png"; 
-import Web from '../../assets/diagrams/RIT/web.png'; 
-import Mobile from '../../assets/diagrams/RIT/mobile.png';
+import Web from '../../assets/diagrams/TFS/TFS-Desktop Prototype.png'; 
+import Mobile from '../../assets/diagrams/TFS/TFS-Mobile Prototype.png';
 import RIT_Iteration from './Iterations/RIT-Iteration'; 
 
 export default function TfsUi() {
@@ -136,9 +136,9 @@ export default function TfsUi() {
 
             <div className="flex justify-center cursor-pointer px-0 md:px-20">
                 <img
-                    src={DesignProcessDiagram}
+                    src={DesignProcess}
                     alt="Design Process"
-                    onClick={() => setPreviewImage(DesignProcessDiagram)}
+                    onClick={() => setPreviewImage(DesignProcess)}
                     className="w-full cursor-pointer rounded-xl transition duration-500 hover:scale-[1.02]"
                 />
             </div>
@@ -406,16 +406,16 @@ export default function TfsUi() {
             </div>
 
             <div className='flex justify-center mt-10'>
-                    <button
-                        onClick={() =>
-                            window.open(
-                            "https://www.figma.com/proto/lMBUhIH2M0lN1dhMCfpP8C/Site-Maps?node-id=10-390&t=9NbeJnKjI3wtMORr-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"
-                            )
-                        }
-                        className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">  
-                        View Site Map
-                    </button>
-                </div>
+                <button
+                    onClick={() =>
+                        window.open(
+                        "https://www.figma.com/proto/lMBUhIH2M0lN1dhMCfpP8C/Site-Maps?node-id=10-390&t=9NbeJnKjI3wtMORr-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"
+                        )
+                    }
+                    className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">  
+                    View Site Map
+                </button>
+            </div>
         </section>
 
         <div className="w-full h-px bg-gray-600 my-16" />
@@ -528,11 +528,11 @@ export default function TfsUi() {
                 <button
                     onClick={() =>
                         window.open(
-                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=2070-746&t=g6zQ3zBIqQ9vfCg9-1&scaling=min-zoom&content-scaling=fixed&page-id=1969%3A2479"
+                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=4263-42050&p=f&t=tvrvwFVR2RiQPqa3-8&scaling=scale-down&content-scaling=fixed&page-id=4263%3A38543&starting-point-node-id=4263%3A42050&hide-ui=1"
                         )
                     }
                     className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">    
-                        View Full Mobile Prototype
+                        View Mobile Version
                 </button>
             </div>
 
@@ -550,11 +550,11 @@ export default function TfsUi() {
                 <button
                     onClick={() =>
                         window.open(
-                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=3225-2395&t=4J20SnVGmFoeqdVx-1&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3225%3A2395"
+                            "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=3225-2395&p=f&t=R3JaDXOfpJ3OU5sF-8&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3225%3A2395&hide-ui=1"
                         )
                     }
                     className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">    
-                        View Full Web Prototype
+                        View Desktop Version
                 </button>
             </div>
         </section>
@@ -691,11 +691,11 @@ export default function TfsUi() {
                         <button
                             onClick={() =>
                                 window.open(
-                                "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1654-610&p=f&t=9ovLEmbhmTJgzyIe-8&scaling=scale-down&content-scaling=fixed&page-id=1654%3A609&starting-point-node-id=1654%3A610&hide-ui=1"
+                                "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=4258-27132&t=7wP7z1FQixBkOuK3-8&scaling=scale-down&content-scaling=fixed&page-id=4258%3A27131&hide-ui=1"
                                 )
                             }
                             className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">    
-                                Web Prototype
+                                Desktop Prototype
                         </button>
                     </div>
                 </div>
@@ -712,7 +712,7 @@ export default function TfsUi() {
                         <button
                             onClick={() =>
                                 window.open(
-                                "https://www.figma.com/proto/mxzqsp4JU2diT6xcuO7LWM/Royal-IT-Web-Site?node-id=1661-3824&p=f&t=0ldVczTQbDFtsx6B-8&scaling=scale-down&content-scaling=fixed&page-id=1661%3A2715&starting-point-node-id=1661%3A3824&hide-ui=1"
+                                "https://www.figma.com/proto/zFEo9mzrIPEPfk0EIuXvLu/TFS-E-Commerce-Site-Prototype?node-id=4263-42050&p=f&t=tvrvwFVR2RiQPqa3-8&scaling=scale-down&content-scaling=fixed&page-id=4263%3A38543&starting-point-node-id=4263%3A42050&hide-ui=1"
                                 )
                             }
                             className="px-10 py-4 border  hover:bg-gray-800 transition duration-300 cursor-pointer shadow-white shadow-md bg-black text-white border-white hover:text-white">    
