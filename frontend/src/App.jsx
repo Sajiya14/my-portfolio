@@ -11,6 +11,7 @@ import Experience from "./pages/about/Experience";
 import Education from "./pages/about/Education";
 import RoyalItUI from "./pages/Projects/RoyalItUI";
 import TfsUi from "./pages/Projects/TfsUi";
+import EoDUI from "./pages/Projects/EoDUI";
 import Footer from "./components/Footer";
 
 
@@ -31,6 +32,7 @@ export default function App() {
 
           <Route path="/royalItUI" element={<RoyalItUI />} />
           <Route path="/TfsUi" element={<TfsUi />} />
+          <Route path="/EoDUI" element={<EoDUI />} />
 
             <Route path="/about" element={<AboutLayout />}>
               <Route index element={<AboutMe />} />
