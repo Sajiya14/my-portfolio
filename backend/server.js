@@ -1,6 +1,3 @@
-const dns = require('node:dns').promises;
-dns.setServers(['1.1.1.1', '8.8.8.8']);
-
 const dotenv = require("dotenv");
 dotenv.config();
 
@@ -12,26 +9,23 @@ const contactRoutes = require("./routes/contactRoutes.js");
 const app = express();
 
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://my-portfolio-zp42.vercel.app"
-  ],
-  methods: ["GET", "POST"],
+  origin: process.env.CLIENT_URL
 }));
+
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
 connectDB();
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   res.send("API is running...");
 });
 
 app.use("/api/contact", contactRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
 
 module.exports = app;
