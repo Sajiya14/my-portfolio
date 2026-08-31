@@ -20,10 +20,6 @@ export default function AboutMe() {
       label: "Language",
       value: "English, Sinhala",
     },
-    {
-      label: "Experience",
-      value: "2+ years",
-    },
   ];
 
 
