@@ -15,8 +15,8 @@ import UiLibrary from "../../assets/diagrams/RIT/Ui Library Cover.png";
 import RIT_Iteration from './Iterations/RIT-Iteration'; 
 import Personas from './Personas/RIT-Persona'; 
 import { FaCircleArrowUp } from "react-icons/fa6"; 
-import Web from '../../assets/diagrams/RIT/web.png'; 
-import Mobile from '../../assets/diagrams/RIT/mobile.png';
+import WebMockup from '../../assets/diagrams/RIT/RIT WebMockup.png'; 
+import MobileMockup from '../../assets/diagrams/RIT/RIT MobileMockup.png';
 
 export default function RoyalItUI() {
   const [previewImage, setPreviewImage] = useState(null);
@@ -654,7 +654,7 @@ export default function RoyalItUI() {
                 <div className="text-center">
                     <div className="h-80">
                         <img
-                        src={Web}
+                        src={WebMockup}
                         alt="Web UI"
                         className="h-full mx-auto object-contain transition hover:scale-102"
                         />
@@ -676,7 +676,7 @@ export default function RoyalItUI() {
                 <div className="text-center">
                     <div className="h-80">
                         <img
-                        src={Mobile}
+                        src={MobileMockup}
                         alt="Mobile UI"
                         className="h-full mx-auto object-contain transition hover:scale-102"
                         />
