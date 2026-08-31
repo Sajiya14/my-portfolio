@@ -61,7 +61,7 @@ export default function Home() {
               </h1>
 
               <h2 className="text-lg sm:text-xl md:text-2xl text-white mb-6">
-                UI/UX Designer & Frontend Developer
+                UI/UX Designer
               </h2>
 
               <p className="text-gray-300 text-sm sm:text-base leading-7 max-w-lg mx-auto md:mx-0 mb-8">
