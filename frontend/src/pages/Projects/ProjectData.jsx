@@ -15,11 +15,11 @@ const projectData = [
   },
   {
     id: 2,
-    title: "Uni-T Fashion E-commerce Web App UI Design",
+    title: "TFS (The Fashion Store) E-commerce Web App UI Design",
     category: "UX/UI",
     thumbnailImg: TfsThumbnail,
     projectType: "Ecommerce Website",
-    description: "A modern UI design for the Uni-T Fashion E-commerce website, focusing on a clean, responsive, and user-friendly interface.",
+    description: "A modern UI design for the TFS E-commerce website, focusing on a clean, responsive, and user-friendly interface.",
     tags: ["Figma", "UI Design", "E-commerce Design"],
     link: "/TfsUi"
   },
